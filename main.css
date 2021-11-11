@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+body {
+    background: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1rem;
+
+}
+
+.container {
+    background: #eaeaea;
+    ;
+    height: 42em;
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 3.8rem;
+    border-radius: 1.5rem;
+    background: hsl(225, 100%, 98%);
+
+
+}
+
+.image {
+    background: url("images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 65rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.info {
+    margin-top: -49rem;
+}
+
+h1 {
+
+    font-weight: 900;
+    text-align: center;
+}
+
+p {
+    margin: 1.2rem 4rem;
+    text-align: center;
+    color: hsl(224, 23%, 55%)
+}
+
+.price-section {
+    background: #eaeaea;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+    border-radius: .5rem;
+    height: 6rem;
+    width: 24rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+img {
+    margin: 1.2rem;
+}
+
+.price-section>p {
+    flex-direction: row;
+    /* position: absolute; */
+    margin: 1.2rem 4rem;
+    position: relative;
+    left: -3rem;
+    line-height: 1.5;
+    letter-spacing: .1rem;
+}
+
+.price-section>a {
+    margin: 2rem;
+    text-decoration: none;
+    position: relative;
+    right: 3rem;
+    font-weight: 700;
+}
+
+a:hover {
+    color: hsl(223, 57%, 44%);
+
+}
+
+.btn {
+    width: 24rem;
+    margin: 2rem 2.8rem;
+    outline: none;
+    border: none;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    height: 3rem;
+    letter-spacing: .2rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 20px #a5a2a2;
+
+}
+
+.cancel {
+    position: relative;
+    left: 11rem;
+    margin-top: .5rem;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%)
+}
+
+/* media query for mobile  */
+@media only screen and (max-width: 700px) {
+    body {
+        background: hsl(225, 100%, 94%);
+        background-image: url("images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1rem;
+
+    }
+
+
+    .container {
+        background: #eaeaea;
+        height: 40em;
+        width: 22rem;
+        margin: 0 auto;
+        margin-top: 3.8rem;
+        border-radius: 1.5rem;
+        background: hsl(225, 100%, 98%);
+
+
+    }
+    .info {
+        margin-top: -52rem;
+    }
+    p {
+        margin: 1.2rem 3.6rem;
+        text-align: center;
+        color: hsl(224, 23%, 55%)
+    }
+    .price-section{
+        width:19.5rem;
+    }
+    .price-section>p {
+        flex-direction: row;
+        /* position: absolute; */
+        margin: 1.2rem 4rem;
+        position: relative;
+        left: -3rem;
+        line-height: 1.5;
+        letter-spacing: .1rem;
+    }
+    
+    .price-section>a {
+        margin: 2rem;
+        margin-left: -2rem;
+        text-decoration: none;
+        position: relative;
+        right: 3rem;
+        font-weight: 700;
+    }
+    .btn {
+        width: 19.4rem;
+        margin: 2rem 2.8rem;
+        margin-left:1.3rem;
+        outline: none;
+        border: none;
+        background: hsl(245, 75%, 52%);
+        color: white;
+        height: 3rem;
+        letter-spacing: .2rem;
+        border-radius: .5rem;
+        box-shadow: 0 0 20px #a5a2a2;
+    
+    }
+    .cancel {
+        position: relative;
+        left: 7rem;
+        margin-top: .5rem;
+        letter-spacing: .2rem;
+        text-decoration: none;
+        color: hsl(224, 23%, 55%)
+    }
+    
+    
+    
+
+}
