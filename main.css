@@ -177,6 +177,7 @@ a:hover {
         background: hsl(245, 75%, 52%);
         color: white;
         height: 3rem;
+        cursor: pointer;
         letter-spacing: .2rem;
         border-radius: .5rem;
         box-shadow: 0 0 20px #a5a2a2;
