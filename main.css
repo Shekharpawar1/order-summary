@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
-    cursor: pointer;
+ 
 
 }
 
@@ -20,7 +20,7 @@ body {
 
 .container {
     background: #eaeaea;
-    
+
     height: 42em;
     width: 30rem;
     margin: 0 auto;
@@ -106,6 +106,9 @@ a:hover {
     border-radius: .5rem;
     box-shadow: 0 0 20px #a5a2a2;
 
+}
+input{
+    cursor: pointer;
 }
 
 .cancel {
